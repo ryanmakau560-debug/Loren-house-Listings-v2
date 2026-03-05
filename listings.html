@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loren Houses | Premium Listings</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #000000;
+      color: #ffffff;
+    }
+    .header-grey {
+      background-color: #808080;
+    }
+    .listing-card:hover {
+      border-color: #ffffff;
+      transform: translateY(-5px);
+      transition: all 0.3s ease;
+    }
+    .fade-in-img {
+      opacity: 0;
+      transition: opacity 1.5s ease-in-out;
+    }
+    .fade-in-img.active {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+<nav class="sticky top-0 z-50 bg-black/80 backdrop-blur-sm border-b border-zinc-800 p-4">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <div class="font-black text-xl tracking-tighter text-white">LOREN</div>
+    
+    <div class="flex gap-4">
+      <a href="index.html" class="bg-zinc-800 hover:bg-zinc-700 text-white px-5 py-2 rounded font-bold text-xs transition border border-zinc-700">
+        HOME
+      </a>
+      <a href="aboutus.html" class="bg-zinc-800 hover:bg-zinc-700 text-white px-5 py-2 rounded font-bold text-xs transition shadow-lg shadow-zinc-900/40">
+        About us
+      </a>
+      <a href="contact us.html" class="bg-zinc-800 hover:bg-zinc-700 text-white px-5 py-2 rounded font-bold text-xs transition shadow-lg shadow-zinc-900/40">
+        Contact us
+      </a>
+    </div>
+  </div>
+</nav>
+  <header class="header-grey text-black py-6 mb-10 text-center rounded-lg">
+    <h1 class="text-4xl font-bold tracking-widest uppercase">House Listings</h1>
+  </header>
+
+  <main class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div class="listing-card border-2 border-zinc-800 rounded-lg overflow-hidden bg-zinc-900">
+        <img src="img\e415ab5f-0bbc-4166-beb3-4aea8e618550 (1).jpg" alt="House 1" class="w-full h-64 object-cover">
+        <div class="bg-green-400 text-black text-center py-1 font-bold italic border-y-2 border-black">Available</div>
+        <div class="p-4 text-center">
+          <h2 class="text-xl font-bold text-white uppercase">5 Bedroom Karen Mansion</h2>
+          <p class="text-lg">Price: 50 Million
+          </p>
+          <p class="text-sm text-zinc-400 mt-2">Dev: Samia homes/       Dev Contact: 0799054233</p>
+        </div>
+      </div>
+
+      <div class="listing-card border-2 border-zinc-800 rounded-lg overflow-hidden bg-zinc-900">
+          <img src="img\Kenyan homes.jpg" class="fade-in-img active"/> 
+        </a>
+        <div class="bg-red-400 text-black text-center py-1 font-bold italic border-y-2 border-black uppercase tracking-widest">Sold</div>
+        <div class="p-4 text-center">
+          <h2 class="text-xl font-bold text-white uppercase">4 Bedroom Villa</h2>
+          <p class="text-lg">Price: 50 Million</p>
+          <p class="text-sm text-zinc-400 mt-2">Dev: green garden villas/       Dev Contact: 0795432100</p>
+        </div>
+      </div>
+
+      <div class="listing-card border-2 border-zinc-800 rounded-lg overflow-hidden bg-zinc-900">
+        <img src="img\appartment1.jpg" alt="House 3" class="w-full h-64 object-cover">
+        <div class="bg-yellow-400 text-black text-center py-1 font-bold italic border-y-2 border-black uppercase tracking-widest">Rented</div>
+        <div class="p-4 text-center">
+          <h2 class="text-xl font-bold text-white uppercase">2 Bedroom Apartment</h2>
+          <p class="text-lg">Price: 4.5 Million</p>
+          <p class="text-sm text-zinc-400 mt-2">Dev:  culton apartments/       Dev Contact: 0795605567</p>
+        </div>
+      </div>
+
+      <div class="listing-card border-2 border-zinc-800 rounded-lg overflow-hidden bg-zinc-900">
+        <img src="img\appartment 3.jpg" alt="House 4" class="w-full h-64 object-cover">
+        <div class="bg-green-400 text-black text-center py-1 font-bold italic border-y-2 border-black uppercase">Available</div>
+        <div class="p-4 text-center">
+          <h2 class="text-xl font-bold text-white uppercase">4 Bedroom Apartment</h2>
+          <p class="text-lg">Price: 9 Million</p>
+          <p class="text-sm text-zinc-400 mt-2">Dev: Kenya Property Hub/       Dev Contact: 0799054563</p>
+        </div>
+      </div>
+
+      <div class="listing-card border-2 border-zinc-800 rounded-lg overflow-hidden bg-zinc-900">
+        <img src="img\appartment 2.jpg" alt="House 5" class="w-full h-64 object-cover">
+        <div class="bg-green-400 text-black text-center py-1 font-bold italic border-y-2 border-black uppercase">Available</div>
+        <div class="p-4 text-center">
+          <h2 class="text-xl font-bold text-white uppercase">Studio Apartment</h2>
+          <p class="text-lg">Price: 3 Million</p>
+          <p class="text-sm text-zinc-400 mt-2">Dev: Paul & Sons Real Estate/       Dev Contact: 0764593025</p>
+        </div>
+      </div>
+
+      <div class="listing-card border-2 border-zinc-800 rounded-lg overflow-hidden bg-zinc-900">
+        <img src="img\mansion image.jpg" alt="House 6" class="w-full h-64 object-cover">
+        <div class="bg-red-400 text-black text-center py-1 font-bold italic border-y-2 border-black uppercase tracking-widest">Sold</div>
+        <div class="p-4 text-center">
+          <h2 class="text-xl font-bold text-white uppercase">6 Bedroom Mansion</h2>
+          <p class="text-lg">Price: 200 Million</p>
+          <p class="text-sm text-zinc-400 mt-2">Dev: Samia homes/       Dev Contact: 0799054233</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="mt-20 py-10 border-t border-zinc-800 text-center text-zinc-500 text-xs">
+    &copy; 2026 LOREN HOUSES - ALL RIGHTS RESERVED
+  </footer>
+
+</body>
+</html>
